@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main () {
+   char c;
+ 
+   printf("Apakah Mau Masuk? (y/n) : ");
+   c = getchar();
+
+    if (c == 'y' || c=='Y'){
+        printf("Silahkan Masuk");
+    }
+    
+    else if (c == 'n' || c=='N'){
+        printf("Terimakasih");
+    }
+    else {
+   printf("anda memasukan huruf '");
+   putchar(c);
+   printf("' harap ulangi proses anda.silahkan masukan huruf 'y' atau 'n': ");
+   }
+
+   printf("Apakah Mau Masuk? (y/n) : ");
+   c = getchar();
+
+   return(0);
+}
+// Belajar C program masuk atau tidak.
